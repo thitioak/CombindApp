@@ -38,7 +38,10 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  orangedark: #0099aa,
+  bluelight : #00a8f9,
+  bluelighty : #06abce
 );
 
 
@@ -52,9 +55,13 @@ $colors: (
 // App Material Design Variables
 // --------------------------------------------------
 // Material Design only Sass variables can go here
+$tabs-background: color($colors,bluelight);
+$tabs-tab-color-active : color($colors,light);
+$tabs-tab-color-inactive: color($colors,light);
+$toolbar-background: color($colors,orangedark);
 
-
-
+$tabs-md-tab-text-color: color($colors,light);
+$tabs-md-tab-icon-color: color($colors,light);
 
 // App Windows Variables
 // --------------------------------------------------
